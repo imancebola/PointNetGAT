@@ -31,7 +31,7 @@ cd PointNetGAT
 conda create -n pointnetgat_env python=3.8
 conda activate pointnetgat_env
 ```
-4. 2. Install dependencies from *requirements.txt*
+4. Install dependencies from *requirements.txt*
 ```
 pip install -r requirements.txt
 ```
