@@ -7,7 +7,7 @@ PointNetGAT is a deep learning architecture that combines **PointNet++** and **G
 ## File Overview
 | File/Folder            | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| `preprocessing.py`               | Prepares .pt files for training the PointNetGAT model              |
+| `preprocessing.py`               | Prepares mesh files for training the PointNetGAT model              |
 | `model.py`            | Configuration file of PointNetGAT model. Auxiliary and metrics (Dice, IoU) functions.      |
 | `train.py`          | Trains the model and runs validation.    |
 | `test.py`            | Evaluates the model on the test set.      |
