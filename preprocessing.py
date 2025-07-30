@@ -215,7 +215,7 @@ if __name__ == "__main__":
 
     print(f"\nData saved to: {base_output_dir}")
 
-    # Create DataLoaders
+    # Create DataLoaders for a simple test of the data
     train_loader = DataLoader(train_data, batch_size=2, shuffle=True)
     val_loader = DataLoader(val_data, batch_size=1, shuffle=False)
     test_loader = DataLoader(test_data, batch_size=1, shuffle=False)
